@@ -13,7 +13,7 @@ function reducer(state, { type, payload })
     case ACTIONS.ADD_DIGIT:
     return {
         ...state,
-        currentOperand: ${currentOperand || " " }${payload.digit}
+        currentOperand: ${currentOperand ||  }${payload.digit}
     }
     
 
